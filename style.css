@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    background-image: url(assets/backgroundimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.text-center.mb-5 {
+    color: #160058;
+    font-size: 2.5rem;
+    font-weight: 700
+    
+}
+
+.navbar-brand {
+color: rgba(255, 255, 255, 0.55)!important;
+    font-style: italic;
+}
+.navbar-brand:hover {
+    color: #2026c3 !important;
+    font-weight: 700;
+}
+
+.mx-2.text-white {
+    color: rgba(255, 255, 255, 0.55)!important;
+    font-weight: 500;
+   text-decoration: none;
+}
+
