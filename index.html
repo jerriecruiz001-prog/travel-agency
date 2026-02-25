@@ -225,49 +225,85 @@
       </div>
     </section>
     <!--contact section-->
-    <section id="Contact" class="py-5 bg-light">
-      <div class="container">
-        <h2 class="text-center mb-5">Contact Us</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required />
-              </div>
-              <div class="mb-3">
-                <label for="Destinations" class="form-label"
-                  >Destinations of Interest</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Destinations"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="4"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary w-100">
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Contact Us</h2>
 
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+
+          <!-- Name -->
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              id="name" 
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input 
+              type="email" 
+              class="form-control" 
+              id="email" 
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <!-- Destinations Dropdown -->
+          <div class="mb-3">
+            <label for="destinations" class="form-label">
+              Destinations of Interest
+            </label>
+
+            <select 
+              class="form-select" 
+              id="destinations required" 
+              required
+            >
+              <option value="" disabled selected>
+                Select a country
+              </option>
+              <option value="USA">United States</option>
+              <option value="UK">United Kingdom</option>
+              <option value="Canada">Canada</option>
+              <option value="France">France</option>
+              <option value="Italy">Italy</option>
+              <option value="Spain">Spain</option>
+              <option value="UAE">United Arab Emirates</option>
+              <option value="Nigeria">Nigeria</option>
+            </select>
+          </div>
+
+          <!-- Message -->
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="5"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary w-100">
+            Send Message
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
     <!-- Footer Section -->
     <footer class="bg-dark text-white text-center py-3">
       <div class="container">
@@ -288,7 +324,6 @@
             target="_blank"
             class="mx-2 text-white"
           >
-        
             <i class="fab fa-tiktok fa-lg me-2"></i>jcruizco
           </a>
 
@@ -298,7 +333,6 @@
             class="mx-2 text-white"
           >
             <i class="fab fa-facebook fa-lg me-2"></i>jcruizco
-
           </a>
         </div>
       </div>

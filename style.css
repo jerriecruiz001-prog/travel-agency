@@ -16,18 +16,20 @@
 }
 
 .text-center.mb-5 {
-    color: #160058;
+    color: #0D6EFD;
     font-size: 2.5rem;
     font-weight: 700
     
 }
 
+
 .navbar-brand {
 color: rgba(255, 255, 255, 0.55)!important;
     font-style: italic;
+    font-size: l !important;
 }
 .navbar-brand:hover {
-    color: #2026c3 !important;
+    color: #2026c3 \\\!important;
     font-weight: 700;
 }
 
@@ -35,5 +37,15 @@ color: rgba(255, 255, 255, 0.55)!important;
     color: rgba(255, 255, 255, 0.55)!important;
     font-weight: 500;
    text-decoration: none;
+}
+
+a.nav-link {
+    color: grey !important;
+    font-weight: 700;
+}
+a.nav-link:hover {
+    color: #0D6EFD !important;
+    font-weight: 700;
+    text-decoration: none;
 }
 
